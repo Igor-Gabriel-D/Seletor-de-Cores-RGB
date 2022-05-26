@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+main {
+	border: 1px solid black;
+	border-radius: 10px;
+	max-width: 450px;
+	min-width: 298px;
+	width: 75%;
+	margin: 20px auto 0;
+	padding: 20px 20px;
+	font: 2em monospace;
+
+}
+
+#display-color {
+	height: 200px;
+	border-radius: 10px;
+}
+
+#rgb {
+	margin: 16px auto 32px;
+}
+
+#colors {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}

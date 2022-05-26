@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="HTML, CSS, JavaScript, Colors, rgb,">
+	<meta name="description" content="a simple RGB color picker.">
+	<meta name="author" content="Igor-Gabriel-D">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>RGB Color Picker</title>
+</head>
+<body>
+
+	<main>
+		<div id="display-color"></div>
+		<p id="rgb">rgb(<span class="num-red"></span>, <span class="num-green"></span>, <span class="num-blue"></span>)</p>
+
+		<div id="colors">
+			<div>
+				<p>Red</p>
+				<input id="red" type="range" min="0" max="255">
+			</div>
+
+			<div>
+				<p>Green</p>
+				<input id="green" type="range" min="0" max="255">
+			</div>
+
+			<div>
+				<p>Blue</p>
+				<input id="blue" type="range" min="0" max="255">
+			</div>
+		</div>
+	</main>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
